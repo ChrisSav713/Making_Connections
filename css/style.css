@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    min-height: 100%;
+    min-width: 100%;
+    height: 100vh;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar a {
+    font-size: 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    margin-left: 40px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar button {
+    background-color: deepskyblue;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+#profile {
+    color: white;
+    font-size: 50px;
+    margin-left: 0px;
+}
+
+.navleft {
+    min-width: 800px;
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.navright {
+    min-width: 400px;
+    min-height: 100px;
+    box-sizing: border-box;
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container {
+    min-height: 800px;
+    display: Flex;
+    justify-content: center;
+}
+
+.leftcolumn {
+    min-width: 800px;
+    margin: 30px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightcolumn {
+    min-width: 400px;
+    margin: 30px 30px 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.usercard {
+    border: 3px solid grey;
+    margin-bottom: 40px;
+}
+
+.education {
+    /* border: 3px solid grey; */
+    min-height: 200px;
+}
+
+.requests {
+    /* border: 3px solid grey; */
+    min-height: 200px;
+    margin-bottom: 40px;
+}
+
+.connection {
+    /* border: 3px solid grey; */
+    min-height: 300px;
+}
+
+
+/******************************************/
+
+
+/* Styling for usercard                   */
+
+
+/******************************************/
+
+.user-top {
+    display: block;
+    background-color: deepskyblue;
+    height: 120px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border: 3px solid deepskyblue;
+}
+
+.user-bottom {
+    padding: 30px;
+}
+
+.user-content {
+    position: relative;
+    top: -100px;
+}
+
+.user-paragraph {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.user {
+    position: relative;
+    top: -50px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+    z-index: 100;
+}
+
+.user-map {
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 20px;
+    display: inline-block;
+}
+
+.user-gear {
+    margin-top: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.user-link {
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.usercard h1 {
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.usercard h2 {
+    margin-top: 20px;
+    font-size: 35px;
+    display: inline-block;
+}
+
+
+/******************************************/
+
+
+/* Styling for other boxes                */
+
+
+/******************************************/
+
+.box-top {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box-bottom {
+    padding: 10px;
+    border: 3px solid grey;
+    border-top: 0px;
+    background-color: white;
+    font-size: 30px;
+}
+
+.user-row {
+    display: flex;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.user-row img {
+    height: 50px;
+    margin-right: 30px;
+}
+
+.accept-boxes {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.accept-boxes img {
+    margin: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#education-date {
+    font-size: 25px;
+    color: grey;
+}
+
+.education-bottom {
+    padding: 30px;
+    line-height: 40px;
+}
+
+.number-buttons {
+    padding: 10px;
+    font-size: 30px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.connection-bottom {
+    font-size: 20px;
+    padding: 10px;
+    border: 3px solid grey;
+    border-top: 0px;
+}
